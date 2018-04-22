@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8f7dfc224494882449d72aea90e4f587
+timeCreated: 1511921994
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shot: {fileID: 1639265112307054, guid: a1197e08fb800aa49bd8fc3766f50a34, type: 2}
+  - laser1: {fileID: 1458159622526372, guid: 0088edd069e237f4e9609e6c43457bbd, type: 2}
+  - laser2: {fileID: 1448075131685820, guid: 52f41dbfaafccb340bc872523d224860, type: 2}
+  - laser3: {fileID: 1448075131685820, guid: 52f41dbfaafccb340bc872523d224860, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

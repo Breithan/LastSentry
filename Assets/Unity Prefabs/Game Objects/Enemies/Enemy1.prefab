@@ -243,10 +243,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
-  scorePoints: 10
+  scorePoints: 100
   healPoints: 10
   flt_MetVel: 0
-  enemySize: {x: 1, y: 1, z: 1}
+  enemySize: {x: 0.85, y: 0.85, z: 0.85}
   bgdPurple: {fileID: 0}
   explotion: {fileID: 1873604670415140, guid: 11ea363423f7a7a44a6e01f7d9f2fc66, type: 2}
   plasmaShock: {fileID: 1965258413844524, guid: b02fe27ab39a9b741a89627a31776e9a,

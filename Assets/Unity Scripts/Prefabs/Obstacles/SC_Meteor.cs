@@ -78,6 +78,7 @@ public class SC_Meteor : MonoBehaviour
 
     public void DestroyObject(Transform parent)
     {
+        GetComponent<Rigidbody2D>().velocity = new Vector3(0, -(flt_MetVel + flt_MetVel * 0.5f) / 1.5f);
         this.GetComponent<SC_AudioManager>().PlayAudio(0, 0.75f);
         GameObject activeEM = Instantiate(explotion, this.transform.position, this.transform.rotation);
         activeEM.transform.localScale = meteorSize;

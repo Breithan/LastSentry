@@ -16,7 +16,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 92245efd5338724b55d21c10aed42ec4 Assembly-CSharp.dll:.SC_BossBS4
-79e26574df80caaeb55c7a516c80bf48 Assembly-CSharp.dll:.SC_PU01
+b2ea3a04e2007dda6c731684ee97c110 Assembly-CSharp.dll:.SC_PU01
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -52,6 +52,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 fc6b30841eebf88ed9c136deab409fa7 Assembly-CSharp.dll:.SC_BossMV5
 b2ea3a04e2007dda6c731684ee97c110 Assembly-CSharp.dll:.SC_PU02
 96fec0a9edd00446e5ef6d9e47644107 Assembly-CSharp.dll:.SC_GameCamera
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SC_MicroPuntaje
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -84,7 +85,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-3647770637ffbec410f5cef73342cef0 Assembly-CSharp.dll:.SC_PlayerShip
+1cc109634735c56d11b32b8287085aa4 Assembly-CSharp.dll:.SC_PlayerShip
 b2ea3a04e2007dda6c731684ee97c110 Assembly-CSharp.dll:.SC_PU04
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -136,7 +137,7 @@ eb58d1c4d58cf00c7c5e205b37799c1d Assembly-CSharp.dll:.SC_BossManager
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 b72e454c193f25851d344e2c8f6799b9 Assembly-CSharp.dll:.SC_StartMenu
-8102d016c3ef8247388782417a280d83 Assembly-CSharp.dll:.SC_SourgeBoss
+6a9d2ea09449eededb43effed04100b7 Assembly-CSharp.dll:.SC_SourgeBoss
 92245efd5338724b55d21c10aed42ec4 Assembly-CSharp.dll:.SC_BossBS3
 5845f717f96906afdaa5742d8f732e22 Assembly-CSharp.dll:.SC_LaserEnemy
 051538f7cfbf3d0849f47ad38dafb4cb Assembly-CSharp.dll:.SC_AudioManager
@@ -182,3 +183,4 @@ fc6b30841eebf88ed9c136deab409fa7 Assembly-CSharp.dll:.SC_BossMV3
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SC_HitAnimation
 b29b948df4bc9a2c10c794860c71808d Assembly-CSharp.dll:.SC_BossShoot
 fbfa0932a68f6d2ec58910de3dbbb6d4 Assembly-CSharp.dll:.SC_Meteor
+84a85928bf8f355084e7b68ee2d80c1e Assembly-CSharp.dll:.SC_Ending

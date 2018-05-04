@@ -2045,6 +2045,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUp: {fileID: 1074770569536516, guid: e209ee95d2fd5ed489aef21ecd0515b2, type: 2}
   SpacialStation: {fileID: 1573049374928000}
+  End_Backgraund: {fileID: 1989940886072434, guid: 322f878efaf25d44c8b99225ae3e76c5,
+    type: 2}
+  End_Menu: {fileID: 1631116966506350, guid: da788c899c21c254baf24195f9d1c5d4, type: 2}
+  finalBoss: 1
   healthBar: {fileID: 0}
   hpBosses:
   - 500

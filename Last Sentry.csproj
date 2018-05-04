@@ -286,10 +286,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Unity Scripts\Ending\SC_Ending.cs" />
     <Compile Include="Assets\Unity Scripts\GUI\SC_Camera.cs" />
     <Compile Include="Assets\Unity Scripts\GUI\SC_GameCamera.cs" />
     <Compile Include="Assets\Unity Scripts\GUI\SC_GameGUI.cs" />
     <Compile Include="Assets\Unity Scripts\GUI\SC_HealAnim.cs" />
+    <Compile Include="Assets\Unity Scripts\GUI\SC_MicroPuntaje.cs" />
     <Compile Include="Assets\Unity Scripts\GUI\SC_Oscilacion.cs" />
     <Compile Include="Assets\Unity Scripts\GUI\SC_PanelAnim.cs" />
     <Compile Include="Assets\Unity Scripts\GUI\SC_StartMenu.cs" />

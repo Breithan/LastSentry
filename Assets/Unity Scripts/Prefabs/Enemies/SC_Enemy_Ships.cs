@@ -19,7 +19,7 @@ public class SC_Enemy_Ships : MonoBehaviour {
         bgdPurple = GameObject.Find("bgdPurple");
         damage *= PlayerPrefs.GetFloat("Hardship");
         healPoints *= PlayerPrefs.GetFloat("Hardship");
-        scorePoints *= PlayerPrefs.GetFloat("Hardship");
+        scorePoints *= PlayerPrefs.GetFloat("Hardship") * 1.25f;
     }
 
     private void Update()
@@ -49,6 +49,7 @@ public class SC_Enemy_Ships : MonoBehaviour {
             GameObject activeEM = Instantiate(explotion, this.transform.position, this.transform.rotation);
             activeEM.transform.localScale = enemySize;
             activeEM.transform.SetParent(this.transform);
+            GetComponent<Rigidbody2D>().velocity = new Vector3(0, -(flt_MetVel * 2) / 1.5f);
             Destroy(GetComponent<PolygonCollider2D>());
             Destroy(GetComponent<SpriteRenderer>());
             Destroy(GetComponent<SC_EnemyShot>());

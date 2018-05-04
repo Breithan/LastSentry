@@ -27,6 +27,8 @@ public class SC_PlayerShip : MonoBehaviour
     public GameObject plasmaShock;
     public GameObject plasmaHeal;
     public GameObject plasmaShield;
+    public Text healt;
+    public Text shield;
     public Image[] img_Bars; // Barras UI.
     
     private void Start()
@@ -100,6 +102,7 @@ public class SC_PlayerShip : MonoBehaviour
         else incomingRestoreS = 0;
 
         shieldBar.value = shieldPoints;
+        shield.text = (int)shieldPoints + " / " + (int)shieldBar.maxValue;
     }
     
     private void HealtManager()
@@ -123,6 +126,7 @@ public class SC_PlayerShip : MonoBehaviour
         else incomingRestoreH = 0;
 
         healthBar.value = healPoints;
+        healt.text = (int)healPoints + " / " + (int)healthBar.maxValue;
     }
     
     void OnCollisionEnter2D(Collision2D coll)

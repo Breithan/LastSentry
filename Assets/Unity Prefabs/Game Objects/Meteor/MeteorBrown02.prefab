@@ -302,7 +302,7 @@ MonoBehaviour:
   scorePoints: 15
   healPoints: 15
   flt_MetVel: 0
-  meteorSize: {x: 0.85, y: 0.85, z: 0.85}
+  meteorSize: {x: 0.7, y: 0.7, z: 0.7}
   meteorVel: {x: 0, y: -9, z: 0}
   bgdPurple: {fileID: 0}
   explotion: {fileID: 1413370120031756, guid: e271d75ef6bff3844838fd7c481391ba, type: 2}
